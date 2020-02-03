@@ -14,6 +14,30 @@
                     <view key="view" contentMode="scaleToFill" id="k9L-KY-nBK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wFh-bq-Oa7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="O9B-D0-TkQ">
+                                <rect key="frame" x="0.0" y="336" width="414" height="482"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IwQ-e7-n90">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="77Q-0v-UrT">
+                                        <barButtonItem key="rightBarButtonItem" title="Add Medication" id="7JO-bo-ODv">
+                                            <connections>
+                                                <segue destination="s1Z-tZ-APC" kind="show" identifier="ShowSegueAddMedication" id="LxU-JF-mt5"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Owx-5p-xGH"/>
                     </view>
@@ -22,6 +46,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E2P-5V-DFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1002.8985507246377" y="75.669642857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k5z-hz-1Gy">
+            <objects>
+                <viewController id="s1Z-tZ-APC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jne-g3-0po">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AYA-K5-GMD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LCg-FY-cS8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JoH-No-xkh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1761" y="76"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gD6-5f-mUe">
