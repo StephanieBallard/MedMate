@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Medication List View Controller-->
         <scene sceneID="dVP-AG-TBf">
             <objects>
-                <viewController id="skS-8j-V98" sceneMemberID="viewController">
+                <viewController id="skS-8j-V98" customClass="MedicationListViewController" customModule="MedMate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k9L-KY-nBK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
         <!--Add Medication-->
         <scene sceneID="k5z-hz-1Gy">
             <objects>
-                <viewController id="s1Z-tZ-APC" sceneMemberID="viewController">
+                <viewController id="s1Z-tZ-APC" customClass="AddMedicationViewController" customModule="MedMate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jne-g3-0po">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
