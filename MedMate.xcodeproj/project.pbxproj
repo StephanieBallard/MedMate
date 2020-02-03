@@ -60,12 +60,12 @@
 		5AD5419923E7DEC400732A37 /* MedMate */ = {
 			isa = PBXGroup;
 			children = (
+				5A5AB18023E7ED8500409258 /* MedicationModel.swift */,
+				5A5AB18423E7EE9C00409258 /* AddMedicationViewController.swift */,
+				5A5AB18223E7EE8100409258 /* MedicationListViewController.swift */,
 				5AD5419A23E7DEC400732A37 /* AppDelegate.swift */,
 				5AD5419C23E7DEC500732A37 /* SceneDelegate.swift */,
 				5AD541A023E7DEC500732A37 /* Main.storyboard */,
-				5A5AB18423E7EE9C00409258 /* AddMedicationViewController.swift */,
-				5A5AB18223E7EE8100409258 /* MedicationListViewController.swift */,
-				5A5AB18023E7ED8500409258 /* MedicationModel.swift */,
 				5AD541A323E7DEC500732A37 /* Assets.xcassets */,
 				5AD541A523E7DEC500732A37 /* LaunchScreen.storyboard */,
 				5AD541A823E7DEC500732A37 /* Info.plist */,
