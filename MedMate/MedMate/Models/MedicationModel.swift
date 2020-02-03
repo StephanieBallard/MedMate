@@ -11,7 +11,12 @@ import Foundation
 struct Medication {
     var name: String
     var dose: Double
-    //var time:
-    //var isTaken: Bool
+    var date: Date
+    
+    init(name: String, dose: Double, date: Date = Date()) {
+        self.name = name
+        self.dose = dose
+        self.date = date
+    }
     
 }

@@ -11,6 +11,7 @@
 		5A5AB18323E7EE8100409258 /* MedicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AB18223E7EE8100409258 /* MedicationListViewController.swift */; };
 		5A5AB18523E7EE9C00409258 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AB18423E7EE9C00409258 /* AddMedicationViewController.swift */; };
 		5A7FD75523E89AA10074A83A /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD75423E89AA10074A83A /* ThemeViewController.swift */; };
+		5A7FD75723E8A09B0074A83A /* MedicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD75623E8A09B0074A83A /* MedicationTableViewCell.swift */; };
 		5AD5419B23E7DEC500732A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5419A23E7DEC400732A37 /* AppDelegate.swift */; };
 		5AD5419D23E7DEC500732A37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5419C23E7DEC500732A37 /* SceneDelegate.swift */; };
 		5AD541A223E7DEC500732A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD541A023E7DEC500732A37 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		5A5AB18223E7EE8100409258 /* MedicationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListViewController.swift; sourceTree = "<group>"; };
 		5A5AB18423E7EE9C00409258 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
 		5A7FD75423E89AA10074A83A /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeViewController.swift; path = MedMate/ViewControllers/ThemeViewController.swift; sourceTree = SOURCE_ROOT; };
+		5A7FD75623E8A09B0074A83A /* MedicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MedicationTableViewCell.swift; path = MedMate/ViewControllers/MedicationTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		5AD5419723E7DEC400732A37 /* MedMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD5419A23E7DEC400732A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD5419C23E7DEC500732A37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		5A7FD75123E898DB0074A83A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5A7FD75623E8A09B0074A83A /* MedicationTableViewCell.swift */,
 				5A5AB18223E7EE8100409258 /* MedicationListViewController.swift */,
 				5A5AB18423E7EE9C00409258 /* AddMedicationViewController.swift */,
 				5A7FD75423E89AA10074A83A /* ThemeViewController.swift */,
@@ -182,6 +185,7 @@
 				5A7FD75523E89AA10074A83A /* ThemeViewController.swift in Sources */,
 				5AD5419B23E7DEC500732A37 /* AppDelegate.swift in Sources */,
 				5A5AB18323E7EE8100409258 /* MedicationListViewController.swift in Sources */,
+				5A7FD75723E8A09B0074A83A /* MedicationTableViewCell.swift in Sources */,
 				5A5AB18123E7ED8500409258 /* MedicationModel.swift in Sources */,
 				5AD5419D23E7DEC500732A37 /* SceneDelegate.swift in Sources */,
 				5A5AB18523E7EE9C00409258 /* AddMedicationViewController.swift in Sources */,
